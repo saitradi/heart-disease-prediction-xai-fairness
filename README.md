@@ -1,5 +1,9 @@
 # Heart Disease Prediction with Explainable and Fair Machine Learning
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![XGBoost](https://img.shields.io/badge/XGBoost-ML-green)
+![SHAP](https://img.shields.io/badge/SHAP-XAI-orange)
+
 This project investigates the use of machine learning for heart disease prediction using the Cleveland Heart Disease dataset.
 
 The objective is not only to build an accurate predictive model, but also to understand its decision-making process and evaluate its fairness across demographic groups.
@@ -190,3 +194,15 @@ heart-disease-prediction-xai-fairness/
 │
 └── report/
     └── Heart_Disease_Report.pdf
+```
+
+---
+
+## Contact
+
+**Salaheddine Aït Radi**
+
+Engineering student at Télécom SudParis  
+Interested in machine learning, healthcare AI, explainability, and fairness.
+
+LinkedIn: https://www.linkedin.com/in/salaheddine-a%C3%AFt-radi/  
