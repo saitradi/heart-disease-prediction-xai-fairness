@@ -192,8 +192,8 @@ heart-disease-prediction-xai-fairness/
 │   ├── false_negative_waterfall.png
 │   └── fairness_analysis.png
 │
-└── report/
-    └── Heart_Disease_Report.pdf
+└── models/
+    └── heart_disease_xgb_model.pkl
 ```
 
 ---
