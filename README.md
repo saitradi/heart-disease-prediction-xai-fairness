@@ -4,9 +4,9 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-ML-green)
 ![SHAP](https://img.shields.io/badge/SHAP-XAI-orange)
 
-This project investigates the use of machine learning for heart disease prediction using the Cleveland Heart Disease dataset.
-
+This project explores the use of machine learning for cardiovascular risk prediction using clinical data, with a strong focus on explainability and fairness in clinical decision support systems. It uses for this purpose the Cleveland Heart Disease Dataset (DOI: https://doi.org/10.24432/C52P4X)
 The objective is not only to build an accurate predictive model, but also to understand its decision-making process and evaluate its fairness across demographic groups.
+Such approaches could support clinicians in identifying high-risk patients while ensuring transparency and equity in decision-making.
 
 The project includes:
 
@@ -30,6 +30,8 @@ Final model: **XGBoost**
 | ROC-AUC | 95.5% |
 
 ---
+
+High recall (93%) ensures that most patients with heart disease are correctly identified, which is critical in a medical context.
 
 ## Dataset
 
@@ -131,6 +133,8 @@ Because sex was identified as an influential feature during SHAP analysis, the m
 ![Fairness Analysis](figures/fairness_analysis.png)
 
 The subgroup analysis showed strong performance for both groups. Female patients had slightly lower recall for the positive class, while male patients had more false positives. However, due to the small number of female positive cases, these differences should be interpreted with caution.
+
+This highlights the importance of carefully evaluating model performance across demographic groups in healthcare applications.
 
 ---
 
